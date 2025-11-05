@@ -12,13 +12,12 @@ export default function Navbar() {
             <span className="text-lg">Flare Studio</span>
           </a>
           <nav className="hidden md:flex items-center gap-8 text-sm text-gray-700">
-            <a href="#services" className="hover:text-gray-900 transition">Services</a>
             <a href="#work" className="hover:text-gray-900 transition">Work</a>
             <a href="#pricing" className="hover:text-gray-900 transition">Pricing</a>
             <a href="#contact" className="hover:text-gray-900 transition">Contact</a>
           </nav>
           <div className="flex items-center gap-3">
-            <a href="#contact" className="hidden sm:inline-flex h-9 items-center rounded-lg px-4 text-sm font-medium text-gray-900 hover:bg-gray-100 border border-gray-200">Talk to us</a>
+            <a href="#contact" className="hidden sm:inline-flex h-9 items-center rounded-lg px-4 text-sm font-medium text-gray-900 hover:bg-gray-100 border border-gray-200">Talk to our team</a>
             <a href="#pricing" className="inline-flex h-9 items-center rounded-lg px-4 text-sm font-medium text-white bg-gray-900 hover:bg-black">Get started</a>
           </div>
         </div>
